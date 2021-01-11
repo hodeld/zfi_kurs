@@ -1,0 +1,242 @@
+Name:
+
+Date:
+
+Period:
+
+                    State Capitals Quiz (Form1)
+
+1. What is the capital of Schwyz?
+    A. Schwyz
+
+    B. Sarnen
+
+    C. Solothurn
+
+    D. Zug
+
+2. What is the capital of Appenzell Ausserrhoden?
+    A. Bellinzona
+
+    B. Herisau
+
+    C. Bern
+
+    D. Sarnen
+
+3. What is the capital of Zug?
+    A. Zug
+
+    B. Glarus
+
+    C. Bellinzona
+
+    D. Appenzell
+
+4. What is the capital of Aargau?
+    A. Aarau
+
+    B. St. Gallen
+
+    C. Basel
+
+    D. Sarnen
+
+5. What is the capital of Appenzell Innerrhoden?
+    A. Solothurn
+
+    B. Glarus
+
+    C. Appenzell
+
+    D. Neuchâtel
+
+6. What is the capital of Valais?
+    A. Sion
+
+    B. Appenzell
+
+    C. Altdorf
+
+    D. Herisau
+
+7. What is the capital of Basel-Stadt?
+    A. Luzern
+
+    B. Glarus
+
+    C. Basel
+
+    D. Stans
+
+8. What is the capital of Nidwalden?
+    A. Genève
+
+    B. Stans
+
+    C. Davos
+
+    D. Schwyz
+
+9. What is the capital of Thurgau?
+    A. Sion
+
+    B. St. Gallen
+
+    C. Glarus
+
+    D. Frauenfeld
+
+10. What is the capital of Fribourg?
+    A. Schwyz
+
+    B. Aarau
+
+    C. Fribourg
+
+    D. St. Gallen
+
+11. What is the capital of Ticino?
+    A. Zürich
+
+    B. Zug
+
+    C. Glarus
+
+    D. Bellinzona
+
+12. What is the capital of Schaffhausen?
+    A. Davos
+
+    B. Fribourg
+
+    C. Liestal
+
+    D. Schaffhausen
+
+13. What is the capital of Uri?
+    A. Aarau
+
+    B. Schaffhausen
+
+    C. Bern
+
+    D. Altdorf
+
+14. What is the capital of St.Gallen?
+    A. Zug
+
+    B. St. Gallen
+
+    C. Davos
+
+    D. Schaffhausen
+
+15. What is the capital of Basel-Land?
+    A. Genève
+
+    B. Fribourg
+
+    C. Liestal
+
+    D. Luzern
+
+16. What is the capital of Bern?
+    A. Genève
+
+    B. Schaffhausen
+
+    C. Bern
+
+    D. Fribourg
+
+17. What is the capital of Solothurn?
+    A. Solothurn
+
+    B. Zürich
+
+    C. Liestal
+
+    D. Stans
+
+18. What is the capital of Zürich?
+    A. Zürich
+
+    B. Sarnen
+
+    C. Lausanne
+
+    D. Schwyz
+
+19. What is the capital of Obwalden?
+    A. Sarnen
+
+    B. Schwyz
+
+    C. Frauenfeld
+
+    D. Genève
+
+20. What is the capital of Glarus?
+    A. Genève
+
+    B. Zürich
+
+    C. Glarus
+
+    D. Delémont
+
+21. What is the capital of Genève?
+    A. Neuchâtel
+
+    B. Stans
+
+    C. Solothurn
+
+    D. Genève
+
+22. What is the capital of Graubünden?
+    A. Neuchâtel
+
+    B. Frauenfeld
+
+    C. Aarau
+
+    D. Davos
+
+23. What is the capital of Vaud?
+    A. Zürich
+
+    B. Lausanne
+
+    C. Zug
+
+    D. Bellinzona
+
+24. What is the capital of Luzern?
+    A. Appenzell
+
+    B. Glarus
+
+    C. Luzern
+
+    D. Frauenfeld
+
+25. What is the capital of Jura?
+    A. Sarnen
+
+    B. Delémont
+
+    C. Zürich
+
+    D. Genève
+
+26. What is the capital of Neuchâtel?
+    A. Liestal
+
+    B. Neuchâtel
+
+    C. Bern
+
+    D. Schaffhausen
+
