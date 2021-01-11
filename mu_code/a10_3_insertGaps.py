@@ -16,35 +16,32 @@ into numbered files so that a new file can be added.
 import os, shutil, sys
 from operator import itemgetter
 from pathlib import Path
-import mu_code.fillingGaps as fg
+import mu_code.a10_2_fillingGaps as fg
 
 if __name__ == "__main__":
 
-    if(len(sys.argv) == 4):
+    cwd = Path.cwd()
+    parent = cwd.parent
+    fo_path = parent / 'files' / 'fillinggaps'
+    fprefix = 'file_'
+    gapAt = 3 # wanted gap
 
-        rootDirPath =  Path(sys.argv[1]).absolute()
-        filenamePrefix = sys.argv[2]
-        gapAt = int(sys.argv[3])
+    fileList = fg.findMatchingFiles(fo_path, fprefix)
+    sortedFileList = sorted(fileList, key=itemgetter(int(2)))
+    lengthIntLiteral = fg.getLongestIntLiteral(sortedFileList)
 
-        fileList = fg.findMatchingFiles(rootDirPath, filenamePrefix)
-        sortedFileList = sorted(fileList, key=itemgetter(int(2)))
-        lengthIntLiteral = fg.getLongestIntLiteral(sortedFileList)
-
-        tempDirPath = Path(os.path.join(rootDirPath, 'temp'))
-        if(os.path.exists(tempDirPath)):
-            tempDirPath.rmdir()
-
-        tempDirPath.mkdir()
-
-        # Move the renamed files into a temp-dir, so that they are not
-        # overwritten by themselves.
-        # xxx4.txt --> xxx5.txt --> xx6.txt
-        fg.renameFiles(sortedFileList, lengthIntLiteral, os.path.join('temp/' + filenamePrefix), gapAt=gapAt)
-        # Move the files back to the original dir
-        for fn in os.listdir(tempDirPath):
-            shutil.move(os.path.join(tempDirPath, fn), rootDirPath)
-
+    tempDirPath = Path(os.path.join(fo_path, 'temp'))
+    if(os.path.exists(tempDirPath)):
         tempDirPath.rmdir()
 
-    else:
-        print('Usage: python insertGaps.py rootDir filenamePrefix gapAt')
+    tempDirPath.mkdir()
+
+    # Move the renamed files into a temp-dir, so that they are not
+    # overwritten by themselves.
+    # xxx4.txt --> xxx5.txt --> xx6.txt
+    fg.renameFiles(sortedFileList, lengthIntLiteral, os.path.join('temp/' + fprefix), gapAt=gapAt)
+    # Move the files back to the original dir
+    for fn in os.listdir(tempDirPath):
+        shutil.move(os.path.join(tempDirPath, fn), fo_path)
+
+    tempDirPath.rmdir()
