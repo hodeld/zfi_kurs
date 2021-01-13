@@ -1,3 +1,5 @@
+# inspect variables in debug inspector in mu-editor
+
 print('Enter the first number to add:')
 first = input()
 print('Enter the second number to add:')
