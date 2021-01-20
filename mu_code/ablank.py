@@ -1,1 +1,1 @@
-import requests
+arr = np.array([[1, 2, 4], [3, 4, 5]])

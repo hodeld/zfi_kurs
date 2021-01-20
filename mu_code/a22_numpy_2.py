@@ -15,6 +15,7 @@ days_per_week = np.array([3, 4, 3, 3, 5, 3, 4])
 persons_per_day = 5
 data = (fix_days, days_per_week, persons_per_day)
 
+
 def distribute(data):
     """
     optimisatin of persons p per day
